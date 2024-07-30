@@ -1,0 +1,81 @@
+/* Write your CSS code here */
+.home-container {
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.home-image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.home-heading {
+  color: #1e293b;
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 55px;
+}
+.home-para {
+  color: #475569;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 20px;
+}
+.shop-now-button {
+  border-style: none;
+  border-radius: 7px;
+  background-color: #0b69ff;
+  height: 35px;
+  width: 130px;
+  font-family: Roboto;
+  font-weight: 400;
+  color: #e6f6ff;
+}
+.home-img {
+  width: 30vw;
+}
+.home-details-container {
+  width: 50vw;
+}
+.home-img-sm {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .home-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .home-heading {
+    color: #1e293b;
+    font-family: Roboto;
+    font-weight: 600;
+    text-align: center;
+    font-size: 28px;
+  }
+  .home-para {
+    color: #475569;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+  }
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    order: 1;
+  }
+  .home-img {
+    display: none;
+  }
+  .home-img-sm {
+    display: flex;
+    width: 300px;
+  }
+}
